@@ -13,3 +13,14 @@ print(double_quotes)
 print(greetings[0:5]) # Prints first 5 characters in greetings
 print(greetings[6:11]) # Prints characters 5-11
 print(greetings[-1]) # Prints the final character in greetings
+
+
+# Concatenation and Casting
+first_name = "Jordan"
+last_name = "Clarke"
+age = 24
+# Print first name and last name with age converted to string
+print(first_name + " " + last_name + ", is " + str(age))
+print(first_name, last_name, age)
+# F- String is useful for formatting f
+print(f"{first_name} {last_name} is {age}")
